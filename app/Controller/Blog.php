@@ -57,7 +57,7 @@ class Blog extends AbstractController
 
     public function twig()
     {
-        return $this->view->renderTwig('test.twig', ['var' => 'ololo']);
+        return $this->view->renderTwig('test.twig', ['var' => 'vp1']);
     }
 
     private function error()
